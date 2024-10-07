@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ricardo Gino Salas 21481097, Karla Patricia Bravo Rojas 18480714">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Proyecto Tema 2</title>
+</head>
+<body>
+    <header>
+        <h1>Actividad de HTML5 y CSS3</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#parrafos">Párrafos</a></li>
+            <li><a href="#tabla">Tabla</a></li>
+            <li><a href="#multimedia">Multimedia</a></li>
+            <li><a href="#formulario">Formulario</a></li>
+        </ul>
+    </nav>
+
+    <section id="parrafos">
+        <h2>Párrafos</h2>
+        <p>Actividad 2 Proyecto de programación web ISC ITNL.</p>
+        <p>HTML5 y CSS3 permiten crear páginas web modernas y responsivas.</p>
+    </section>
+
+    <section id="tabla">
+        <h2>Tabla de Ejemplo</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Ciudad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Juan</td>
+                    <td>30</td>
+                    <td>Madrid</td>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>25</td>
+                    <td>Barcelona</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="multimedia">
+        <h2>Multimedia</h2>
+        
+        <h3>Imagen</h3>
+        <img src="https://static01.nyt.com/images/2018/12/12/arts/12walle-promo/12walle-promo-jumbo.jpg" alt="Imagen de Wall-E" width="300">
+        
+        <h3>Video</h3>
+        <video controls width="300">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Tu navegador no soporta el audio.
+        </audio>
+    </section>
+
+    <section id="formulario">
+        <h2>Formulario de Ejemplo</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="genero">Género:</label>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="femenino" name="genero" value="femenino">
+            <label for="femenino">Femenino</label>
+
+            <label for="intereses">Intereses:</label>
+            <input type="checkbox" id="deportes" name="intereses" value="deportes">
+            <label for="deportes">Deportes</label>
+            <input type="checkbox" id="musica" name="intereses" value="musica">
+            <label for="musica">Música</label>
+
+            <label for="pais">País:</label>
+            <select id="pais" name="pais">
+                <option value="españa">España</option>
+                <option value="mexico">México</option>
+                <option value="argentina">Argentina</option>
+            </select>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Ricardo Gino Salas 21481097, Karla Patricia Bravo Rojas 18480714</p>
+    </footer>
+</body>
+</html>
